@@ -1,0 +1,60 @@
+#include <stdio.h>
+
+int main()
+{
+
+    printf("1. expression : 10 = %d\n", 10/3);
+
+    int expression = 10 / 3;
+    printf("2. expression : 10 / 3 = %d\n", expression);
+
+    int expression2 = 10.0 / 3;
+    printf("3. expression : 10.0 3 = %d\n", expression2);
+
+    float expression3 = 10.0/3;
+    printf("4. expression : 10.0 / 3 = %f\n", expression3);
+
+    int expression4= 10%3;
+    printf("5. expression : 10 %% 3 = %d\n", expression4);
+
+    int expression5= -7%3;
+    printf("5. expression : -7 %% 3 = %d\n", expression5);
+
+    int expression6= 7%-3;
+    printf("6. expression : 7 %% -3 = %d\n", expression6);
+
+
+int x = 5;
+printf("x++ = %d\n", x++);
+printf("x = %d\n", x);
+x = 5;
+printf("++x = %d\n", ++x);
+printf("x = %d\n", x);
+
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
